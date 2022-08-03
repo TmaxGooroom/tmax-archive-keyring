@@ -1,0 +1,25 @@
+tmax-archive-keyring (2021.11.12) tmax-unstable; urgency=medium
+
+  * Add new archive keys for 21/gorani
+    - Add a TmaxOS archive automatic signing key for 21/gorani.
+    - Add a TmaxOS archive security automatic signing key for 21/gorani.
+    - Add a TmaxOS archive release signing key for 21/gorani.
+  * Add new archive key for nabi as well.(for temporary usage)
+  * Add new team-member
+    - Add Jungki Min <jungki_min2@tmax.co.kr>
+  * Change maintainer to os1_2
+
+ -- Jungki Min <jungki_min2@tmax.co.kr>  Fri, 12 Nov 2021 09:42:38 +0900
+
+tmax-archive-keyring (2021.6.28) tmax-unstable; urgency=medium
+
+  * Add new archive keys for 3/dambi
+    - Add a TmaxOS archive automatic signing key for 3/dambi.
+    - Add a TmaxOS archive security automatic signing key for 3/dambi.
+    - Add a TmaxOS archive release signing key for 3/dambi.
+  * Add new team-member
+    - Add Youngtaek Yoon <youngtaek_yoon@tmax.co.kr>
+  * Migrate to TmaxOS tmax-unstable
+    - New maintainer: Youngtaek Yoon <youngtaek_yoon@tmax.co.kr>
+
+ -- Youngtaek Yoon <youngtaek_yoon@tmax.co.kr>  Wed, 30 Jun 2021 08:56:29 +0000

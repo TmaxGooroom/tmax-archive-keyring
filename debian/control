@@ -1,0 +1,27 @@
+Source: tmax-archive-keyring
+Priority: important
+Section: misc
+Maintainer: os1_2 <os1_2@tmax.co.kr>
+Build-Depends: debhelper (>= 10), jetring, gnupg
+Rules-Requires-Root: no
+Standards-Version: 4.1.2
+
+Package: tmax-archive-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: GnuPG archive keys of the TmaxOS archive
+ The TmaxOS project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: tmax-archive-keyring-udeb
+Package-Type: udeb
+Priority: optional
+Architecture: all
+Section: debian-installer
+Depends: ${misc:Depends}
+Recommends: gpgv-udeb
+Description: GnuPG keys of the TmaxOS archive
+ The TmaxOS project digitally signs its Release files. This package
+ contains the archive keys used for that, in a minimal form for use
+ in the installer.
